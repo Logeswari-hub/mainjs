@@ -44,9 +44,9 @@ let items = [
   [1, 2, 3], 
   [4, 5, 6], 
   [7, 8, 9], 
-  function() { alert('hello'); }
+  function() { console.log('hello'); }
 ];
-alert(items[1][0]);
+console.log(items[1][0]);
 items[3]();
 
 //string
